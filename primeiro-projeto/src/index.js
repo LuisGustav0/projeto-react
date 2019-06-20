@@ -1,16 +1,42 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+// import PrimeiroComponent from './components/primeiro-component';
+import { ComponentA, ComponentB as CompB } from './components/two-components';
+
 const element = document.getElementById('root');
-
 ReactDOM.render(
-    <h1> Ola Mundo </h1>, element
-);
+    <div>
+        {/* <PrimeiroComponent
+            value="Primeiro component!"
+            isOk="true"
+        /> */}
 
-const lista = document.getElementById('ul');
+        <ComponentA
+            value="Olá eu sou o A!"
+        />
 
-let item = document.createElement('li');
-let texto = document.createTextNode('1) Luis');
+        <CompB
+            value="B na área!"
+        />
+    </div>
+, element);
 
-item.appendChild(texto);
-lista.appendChild(item);
+
+// const elementOlaMundo = document.getElementById('elementOlaMundo');
+
+// ReactDOM.render(
+//     <h1> Ola Mundo </h1>
+//     , elementOlaMundo);
+
+// const elementList = document.getElementById('ul');
+// let item = document.createElement('li');
+// let texto = document.createTextNode('1) Luis');
+
+// item.appendChild(texto);
+// elementList.appendChild(item);
+
+// item.appendChild(texto2);
+// elementList.appendChild(item);
+
+// ReactDOM.render(elementList);
