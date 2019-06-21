@@ -5,37 +5,46 @@ import ReactDOM from 'react-dom';
 // import ComponentA, { ComponentB as CompB } from './components/two-components';
 // import MultElements from './components/mult-elements';
 // import FamilySiqueira from './components/family/family-siqueira';
-import Family from './components/family/family';
-import Person from './components/family/person';
+// import Family from './components/family/family';
+// import Person from './components/family/person';
+// import ComponentWithFunction from './components/component-with-function';
+// import Pai from './components/pai';
+import ComponentClass from './components/component-class';
 
 const element = document.getElementById('root');
 ReactDOM.render(
   <div>
-    {/* <PrimeiroComponent
-            value="Primeiro component!"
-            isOk="true"
-        /> */}
+    <ComponentClass />
 
-    {/* <ComponentA
-            value="Olá eu sou o A!"
-        />
+    {/* <Pai /> */}
 
-        <CompB
-            value="B na área!" 
-        /> */}
+    {/* <ComponentWithFunction /> */}
 
-    {/* <MultElements /> */}
-
-    {/* <FamilySiqueira /> */}
-
-    <Family
+    {/* <Family
         lastName="Siqueira">
       <Person name="Luis" />
       <Person name="Thais" />
-    </Family>
+    </Family> */}
+
+    {/* <FamilySiqueira /> */}
+
+    {/* <MultElements /> */}
+
+    {/* <ComponentA
+        value="Olá eu sou o A!"
+    />
+
+    <CompB
+        value="B na área!" 
+    /> */}
+
+
+    {/* <PrimeiroComponent
+        value="Primeiro component!"
+        isOk="true"
+    /> */}
   </div>
 , element);
-
 
 // const elementOlaMundo = document.getElementById('elementOlaMundo');
 
