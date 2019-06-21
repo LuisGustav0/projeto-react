@@ -10,12 +10,15 @@ import ReactDOM from 'react-dom';
 // import ComponentWithFunction from './components/component-with-function';
 // import Pai from './components/pai';
 // import ComponentClass from './components/component-class';
-import Counter from './components/counter';
+// import Counter from './components/counter';
+import Hook from './components/hook';
 
 const element = document.getElementById('root');
 ReactDOM.render(
   <div>
-    <Counter />
+    <Hook />
+
+    {/* <Counter /> */}
 
     {/* <ComponentClass value="" /> */}
 
