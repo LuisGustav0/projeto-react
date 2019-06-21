@@ -14,7 +14,7 @@ import ComponentClass from './components/component-class';
 const element = document.getElementById('root');
 ReactDOM.render(
   <div>
-    <ComponentClass />
+    <ComponentClass value="Passando parametro value!" />
 
     {/* <Pai /> */}
 

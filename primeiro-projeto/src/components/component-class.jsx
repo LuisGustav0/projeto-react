@@ -4,7 +4,7 @@ export default class ComponentClass extends Component {
   render() {
     return (
       <h1> 
-        Olá Class
+        { this.props.value }
       </h1>
     )
   }
