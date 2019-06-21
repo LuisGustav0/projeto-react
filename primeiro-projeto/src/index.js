@@ -9,12 +9,15 @@ import ReactDOM from 'react-dom';
 // import Person from './components/family/person';
 // import ComponentWithFunction from './components/component-with-function';
 // import Pai from './components/pai';
-import ComponentClass from './components/component-class';
+// import ComponentClass from './components/component-class';
+import Counter from './components/counter';
 
 const element = document.getElementById('root');
 ReactDOM.render(
   <div>
-    <ComponentClass value="" />
+    <Counter />
+
+    {/* <ComponentClass value="" /> */}
 
     {/* <Pai /> */}
 
