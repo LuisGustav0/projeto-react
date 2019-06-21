@@ -2,24 +2,38 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 // import PrimeiroComponent from './components/primeiro-component';
-import { ComponentA, ComponentB as CompB } from './components/two-components';
+// import ComponentA, { ComponentB as CompB } from './components/two-components';
+// import MultElements from './components/mult-elements';
+// import FamilySiqueira from './components/family/family-siqueira';
+import Family from './components/family/family';
+import Person from './components/family/person';
 
 const element = document.getElementById('root');
 ReactDOM.render(
-    <div>
-        {/* <PrimeiroComponent
+  <div>
+    {/* <PrimeiroComponent
             value="Primeiro component!"
             isOk="true"
         /> */}
 
-        <ComponentA
+    {/* <ComponentA
             value="Olá eu sou o A!"
         />
 
         <CompB
-            value="B na área!"
-        />
-    </div>
+            value="B na área!" 
+        /> */}
+
+    {/* <MultElements /> */}
+
+    {/* <FamilySiqueira /> */}
+
+    <Family
+        lastName="Siqueira">
+      <Person name="Luis" />
+      <Person name="Thais" />
+    </Family>
+  </div>
 , element);
 
 
